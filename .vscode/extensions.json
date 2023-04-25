@@ -1,6 +1,62 @@
 {
     // 扩展的标识符
     "recommendations": [
-        
+        // 语言
+        "ms-ceintl.vscode-language-pack-zh-hans", // 中文
+
+        // HTML 
+        "formulahendry.auto-close-tag", // 自动合上标签
+        "formulahendry.auto-rename-tag", // 可以重命名标签
+        "sidthesloth.html5-boilerplate", // html模板
+
+        // CSS
+        "bierner.color-info", // 颜色信息
+        "ecmel.vscode-html-css", // 可以添加远程CDN，然后提示对应的类名
+        "bradlc.vscode-tailwindcss", // tailwindcss 提示
+
+        // JS
+        "wowbox.code-debuger", // 调试代码，不支持ts
+        "ms-azuretools.vscode-docker", // docker
+        "easymock.easymock", // mock
+        "visualstudioexptteam.vscodein", // 代码API智能提示，支持ts
+        "xabikos.javascriptsnippets", // es6语法
+        "lllllllqw.jsdoc", // 生成jsdoc注释
+        "esbenp.prettier-vscode", // 一款代码格式化工具，支持大多数语言，并提供多种格式化配置选项
+        "chakrounanas.turbo-console-log", // 快速打印
+        "dbaeumer.vscode-eslint", // 简单理解就是一个代码检查器，检查目标代码是否符合语法和规定的风格习惯
+
+        // Vue
+        "vue.vscode-typescript-vue-plugin", // 一个 TS 服务器插件，使 TS 服务器知道 *.vue 文件
+        "hollowtree.vue-snippets", // 代码提示
+        /*
+            Vue Language Features是为Vue，Vitepress和petite-vue构建的语言支持扩展。
+            这是基于@vue/反应性来按需计算所有内容，以实现本机TypeScript语言服务级别性能。
+            需要禁用Vetur以避免冲突
+        */ 
+        "vue.volar",
+        "dariofuzinato.vue-peek", // Vue Peek 插件用来拓展 Vue 代码编辑的体验，可以让我们快速跳转到组件、模块定义的文件
+        "sdras.vue-vscode-snippets", // 插件旨在为开发者提供最简单快速的生成 Vue 代码片段的方法，通过各种快捷键就可以在 .vue文件中快速生成各种代码片段
+        // "shenjiaolong.vue-helper", // 代码提示 
+
+        // uni-app
+        "uni-helper.uni-app-schemas-vscode", // 校验 uni-app 中的 androidPrivacy.json、pages.json 和 manifest.json 格式
+        "mrmaoddxxaa.create-uniapp-view", // 快速创建 uniapp 视图与组件!
+        "dlhtx.uniapp-snippet", // uni-app 片段提示
+
+        // Git
+        "donjayamanne.githistory",
+        "redjue.git-commit-plugin",
+
+        // npm
+        "christian-kohler.npm-intellisense", // Npm 智能感知 可在导入语句中自动完成npm模块。
+
+        // 其他
+        "kisstkondoros.vscode-gutter-preview", // 图片预览插件
+        "sirtori.indenticator", // 代码缩进
+        "peakchen90.open-html-in-browser", // 打开网页
+        "christian-kohler.path-intellisense", // 路径自动补全
+        "wayou.vscode-todo-highlight", //  TODO提示高亮
+        "gruntfuggly.todo-tree", // TODO信息在左下角以tree展示
+
     ]
 }

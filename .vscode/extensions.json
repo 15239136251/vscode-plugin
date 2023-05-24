@@ -20,7 +20,7 @@
         "easymock.easymock", // mock
         "visualstudioexptteam.vscodein", // 代码API智能提示，支持ts
         "xabikos.javascriptsnippets", // es6语法
-        "lllllllqw.jsdoc", // 生成jsdoc注释
+        "oouo-diogo-perdigao.docthis", // 生成doc注释
         "esbenp.prettier-vscode", // 一款代码格式化工具，支持大多数语言，并提供多种格式化配置选项
         "chakrounanas.turbo-console-log", // 快速打印
         "dbaeumer.vscode-eslint", // 简单理解就是一个代码检查器，检查目标代码是否符合语法和规定的风格习惯
@@ -46,6 +46,7 @@
         // Git
         "donjayamanne.githistory",
         "redjue.git-commit-plugin",
+        "eamodio.gitlens",
 
         // npm
         "christian-kohler.npm-intellisense", // Npm 智能感知 可在导入语句中自动完成npm模块。
